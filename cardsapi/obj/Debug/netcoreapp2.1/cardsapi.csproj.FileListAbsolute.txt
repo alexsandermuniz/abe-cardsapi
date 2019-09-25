@@ -1,0 +1,14 @@
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\bin\Debug\netcoreapp2.1\cardsapi.deps.json
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\bin\Debug\netcoreapp2.1\cardsapi.runtimeconfig.json
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\bin\Debug\netcoreapp2.1\cardsapi.runtimeconfig.dev.json
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\bin\Debug\netcoreapp2.1\cardsapi.dll
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\bin\Debug\netcoreapp2.1\cardsapi.pdb
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\obj\Debug\netcoreapp2.1\cardsapi.csprojAssemblyReference.cache
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\obj\Debug\netcoreapp2.1\cardsapi.csproj.CoreCompileInputs.cache
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\obj\Debug\netcoreapp2.1\cardsapi.RazorAssemblyInfo.cache
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\obj\Debug\netcoreapp2.1\cardsapi.RazorAssemblyInfo.cs
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\obj\Debug\netcoreapp2.1\cardsapi.AssemblyInfoInputs.cache
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\obj\Debug\netcoreapp2.1\cardsapi.AssemblyInfo.cs
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\obj\Debug\netcoreapp2.1\cardsapi.RazorTargetAssemblyInfo.cache
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\obj\Debug\netcoreapp2.1\cardsapi.dll
+C:\Users\1239976\Desktop\aula\card\cardsapi\cardsapi\obj\Debug\netcoreapp2.1\cardsapi.pdb
