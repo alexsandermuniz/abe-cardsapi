@@ -3,16 +3,16 @@ using cardsapi.Models;
 using Microsoft.AspNetCore.Mvc;
 namespace cardsapi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class TransactionsController : ControllerBase
     {
         TransactionBusiness _TransactionBusiness = new TransactionBusiness();
         // POST api/transactions
         [HttpPost]
-        public void Post([FromBody] Transaction transaction)
+        public ActionResult<long> Post([FromBody] Transaction transaction)
         {
-            _TransactionBusiness.CreateTransaction(transaction);
+            return _TransactionBusiness.CreateTransaction(transaction);
         }
 
         // PUT api/transactions/5

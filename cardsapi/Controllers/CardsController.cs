@@ -8,16 +8,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace cardsapi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class CardsController : ControllerBase
     {
         CardsBusiness _CardsBusiness = new CardsBusiness();
         // POST api/cards
         [HttpPost]
-        public void Post([FromBody] Card card)
+        public ActionResult<long> Post([FromBody] Card card)
         {
-            _CardsBusiness.CreateCard(card);
+           return _CardsBusiness.CreateCard(card);
         }
 
         // GET api/cards/5

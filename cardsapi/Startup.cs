@@ -40,14 +40,14 @@ namespace cardsapi
             {
                 app.UseHsts();
             }
-            //app.UsePathBase(new Microsoft.AspNetCore.Http.PathString("/cardsapi/v1"));
-            app.UseHttpsRedirection();
+            app.UsePathBase(new Microsoft.AspNetCore.Http.PathString("/cardsapi/v1"));
+            //app.UseHttpsRedirection();
             app.UseMvc();
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Card api");
+                c.SwaggerEndpoint("/cardsapi/v1/swagger/v1/swagger.json", "Card api");
             });
 
 

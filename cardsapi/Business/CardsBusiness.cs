@@ -8,10 +8,13 @@ namespace cardsapi.Business
 {
     public class CardsBusiness
     {
-        List<Card> mockCards = new List<Card>();
-        public void CreateCard(Card card)
+        private static long contMockId = 100;
+        private static List<Card> mockCards = new List<Card>();
+        public long CreateCard(Card card)
         {
+            card.id = contMockId;
             mockCards.Add(card);
+            return contMockId++;
         }
         public Card GetCard(long id)
         {

@@ -9,10 +9,13 @@ namespace cardsapi.Business
    
     public class TransactionBusiness
     {
-        List<Transaction> mockTransactions = new List<Transaction>();
-        public void CreateTransaction(Transaction transaction)
+        private static long contMockId = 100;
+        private static List<Transaction> mockTransactions = new List<Transaction>();
+        public long CreateTransaction(Transaction transaction)
         {
+            transaction.id = contMockId;
             mockTransactions.Add(transaction);
+            return contMockId++;
         }
         public Transaction GetTransaction(long id)
         {
